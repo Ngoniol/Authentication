@@ -4,6 +4,6 @@
 
 Code for registration, login and dashboard after a successfull signin
 
-##License & copyright
+## License & copyright
 
 &copy; Olga N Ngoni
