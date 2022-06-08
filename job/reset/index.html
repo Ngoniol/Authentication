@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <title>Reset Password</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+<body class="color">
+    <form action="../php/reset.php" method="POST" class="content">
+        <div class="text">Login</div><br>		
+            <div class="input">
+                <i class="las la-envelope"></i>
+                <input required name="Email" type="email" id="Email" placeholder="Enter your email">
+            </div><br>       
+        <div class="input">
+            <i class="las la-user"></i>
+            <input type="password" name="Password" id="Password" placeholder="New Password">
+        </div><br>
+        <div class="input">
+            <i class="las la-lock"></i>
+            <input type="password" name="newpassword" id="newpassword" placeholder="Confirm Password">
+        </div><br>
+        <button class="primary">Login</button><br><br>
+        <a href="../login/" class="link">Login</a><br><br>
+        <a href="../signup/" class="link">Sign up</a>
+    </form>
+</body>
+</html>
+
+<script>
+    let content = document.querySelector(".content");
+    content.style.opacity = "100%";
+</script>
+
